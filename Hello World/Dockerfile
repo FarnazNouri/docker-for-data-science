@@ -13,5 +13,8 @@ RUN pip install flask
 # copy the rest of the application code
 COPY . .
 
+# Make port 5000 available to the works outside this container
+EXPOSE 5000
+
 # set the command to run the application
 CMD ["python", "app.py"]
