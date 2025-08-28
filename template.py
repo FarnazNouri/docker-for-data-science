@@ -10,11 +10,12 @@ project_name = "Hello World"
 
 list_of_files = [
     ".github/workflows/.gitkeep",
+    ".github/workflows/cicd.yaml",
 
     f"{project_name}/app.py",
     f"{project_name}/Dockerfile",
     f"{project_name}/test.py",
-    f"{project_name}/cicd.yaml",
+
 ]
 
 for filepath in list_of_files:
